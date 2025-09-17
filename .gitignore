@@ -1,0 +1,11 @@
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# 로그/캐시
+*.log
+*.tmp
+
+# 편집기 설정
+.vscode/
+.idea/

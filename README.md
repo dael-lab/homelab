@@ -1,15 +1,36 @@
 # Homelab 🖥️
 
-## 목적
-- Proxmox 기반 가상화 환경
-- pfSense/OPNsense 방화벽 및 VLAN 실험
-- 보안·네트워크 실습 환경 구축
+## Overview
+This repository documents my homelab setup for learning **virtualization, networking, and security**.  
+It includes design diagrams, configuration notes, and progress updates.
 
-## 구조
-- Proxmox
-- pfSense (Management VLAN / Lab VLAN)
-- VM (Linux, Windows)
+## Features ✨
+- Proxmox virtualization host
+- pfSense/OPNsense firewall with VLAN segmentation
+- Virtual Machines for Linux and Windows
+- Network and security experiments
 
-## 앞으로 할 일
-- [ ] VLAN 구성 문서화
-- [ ] Homelab 설계서 v1 추가
+## Repository Structure 📂
+├── docs/           # Network diagrams, design documents
+├── configs/        # pfSense/VM configuration files
+└── README.md
+
+## Getting Started 🛠️
+Check the `docs/` folder for design diagrams and initial setup guides.
+
+### Prerequisites
+- Proxmox VE installed
+- pfSense or OPNsense ISO image
+- Basic knowledge of VLANs
+
+## Roadmap 🗺️
+- [ ] Document VLAN configuration
+- [ ] Upload Homelab Design v1
+- [ ] Add Proxmox automation playbooks
+
+## License 📄
+Distributed under the MIT License.  
+See `LICENSE` for more information.
+
+## Contact 📬
+Dael – [GitHub Profile](https://github.com/yourusername)

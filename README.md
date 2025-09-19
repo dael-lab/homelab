@@ -12,7 +12,9 @@ It includes design diagrams, configuration notes, and progress updates.
 
 ## Repository Structure 📂
 ├── docs/           # Network diagrams, design documents
+
 ├── configs/        # pfSense/VM configuration files
+
 └── README.md
 
 ## Getting Started 🛠️
